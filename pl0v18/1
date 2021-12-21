@@ -1,0 +1,9 @@
+var i[2][2],prt := 10;
+begin
+prt := prt;
+while prt > 5 do
+    begin
+    prt := prt - 1;
+    print prt;
+    end;
+end.
