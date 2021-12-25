@@ -1,0 +1,10 @@
+const i = 3;
+var I:=2;
+var e[10],b;
+begin
+	I [e + i] := 19;
+    (b) := 81;
+    print (I+i)[e];
+    print (0)[e+I+i];
+    print (b)*10;
+end.
