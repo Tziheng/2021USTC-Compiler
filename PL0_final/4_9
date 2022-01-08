@@ -1,0 +1,20 @@
+var I, J, K;
+var f[][8][5] := { {{0},{1}},{2,},3,{{4,}},{5,},6,7,{{8,}},9, };
+begin
+I := 0;
+while I < 3 do
+begin
+	J := 0;
+	while J < 8 do
+	begin
+		K := 0;
+		while K < 5 do
+		begin
+			print f[I][J][K];
+			K := K + 1;
+		end;
+		J := J + 1;
+	end;
+	I := I + 1;
+	end
+end.

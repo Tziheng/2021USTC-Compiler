@@ -1,0 +1,12 @@
+var n := 10, result := 1;
+procedure Factorial;
+begin
+result := n * result;
+n := n - 1;
+if n > 1 then call Factorial;
+end
+begin
+call Factorial;
+print result;
+end.
+

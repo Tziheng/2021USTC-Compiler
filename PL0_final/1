@@ -1,0 +1,10 @@
+var I, J, K;
+var e[] := {1,2,3,4,5,6,7,8,9,10},b;
+begin
+	I := 0;
+	while I < 10 do
+	begin
+		print (I + 0)[e];
+		(I) := I + 1;
+	end
+end.

@@ -1,0 +1,20 @@
+var I, J, K;
+var e[2][1][3][1][3];
+begin
+	I := 0;
+	while I < 4 do
+	begin
+		J := 0;
+		while J < 3 do
+		begin
+			K := 0;
+			while K < 3 do
+			begin
+				print e[I][0][J][0][K];
+				K := K + 1;
+			end
+			J := J + 1;
+		end
+		I := I + 1;
+	end
+end.
